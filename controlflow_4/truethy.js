@@ -63,5 +63,3 @@ let Val1;
 
 const tea = 100
 tea <=80 ? console.log("less than 80") : console.log("more than 80");
-
- 
