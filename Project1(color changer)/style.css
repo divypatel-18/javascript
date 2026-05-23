@@ -11,6 +11,12 @@ span {
   text-align: center;
 }
 
+.canvas-2{
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
 .button {
   width: 100px;
   height: 100px;
@@ -30,4 +36,16 @@ span {
 }
 #yellow {
   background: yellow;
+}
+#green{
+  background-color: green;
+}
+#red{
+  background-color: red;
+}
+#orange{
+  background-color: orange;
+}
+#purple{
+  background-color: purple;
 }
