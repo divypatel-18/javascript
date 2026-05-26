@@ -14,19 +14,20 @@
     const sayDate = function(str){
         console.log(str, Date.now());   
     }
-   
+
+    let internalID;
    document.querySelector('.start').
     addEventListener('click', function(){
-        const internalID = setInterval(sayDate, 1000, "hi")
+        if (!internalID) {
+        internalID = setInterval(sayDate, 1000, "hi")
+     }    
         console.log('start');
-        document.querySelector('.cancle').
+        
+    })
+    document.querySelector('.cancle').
         addEventListener('click', function(){
         clearTimeout(internalID)
         console.log('cancled');
     })
-    })
-
-   
-
 </script>
 </html>
